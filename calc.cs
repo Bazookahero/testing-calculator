@@ -15,10 +15,10 @@ namespace testing_calculator
             sum = num1 + num2;
             return sum;
         }
-        public double Addition(int[] intArray)
+        public double Addition(double[] doubleArray)
         {
             
-            foreach (int num in intArray)
+            foreach (double num in doubleArray)
             {
                 sum += num;
             }
